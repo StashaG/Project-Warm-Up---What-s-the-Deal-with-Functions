@@ -86,7 +86,7 @@ const secondElement = (string) => {
 
 firstElement(value1);
 secondElement(value2);
-thirdElement(value3)
+thirdElement(value3);
 fourthElement(value4);
 
 // 6. Try playing around with the arguments that you pass into each function that you call in the event listener callbacks below.  Experiment to get a better idea of how function parameters/arguments work.
@@ -101,7 +101,7 @@ fourthElement(value4);
 btn1.addEventListener('click', () => {
 
   // Invoke the function to set the first element
-  firstElement();
+  firstElement(value1);
 
   // Helpful log statement to test function
   console.log('First button is functional!');
@@ -112,7 +112,7 @@ btn1.addEventListener('click', () => {
 btn2.addEventListener('click', () => {
 
   // Invoke the function to set the second element 
-  secondElement();
+  secondElement(value2);
   // Helpful log statement to test function
   console.log('Second button is functional!');
 });
@@ -122,7 +122,7 @@ btn2.addEventListener('click', () => {
 btn3.addEventListener('click', () => {
 
   // Invoke the function to set the third element 
-  thirdElement();
+  thirdElement(value3);
   // Helpful log statement to test function
   console.log('Third button is functional!');
 });
@@ -132,7 +132,7 @@ btn3.addEventListener('click', () => {
 btn4.addEventListener('click', () => {
 
   // Invoke the function to set the fourth element  
-  fourthElement();
+  fourthElement(value4);
   // Helpful log statement to test function
   console.log('Fourth button is functional!');
 });
