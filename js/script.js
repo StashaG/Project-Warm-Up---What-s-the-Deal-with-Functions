@@ -84,10 +84,6 @@ const secondElement = (string) => {
 
 // 5. Call each function you've created in the associated event listeners below, using the `value` variables above as the argument
 
-firstElement(value1);
-secondElement(value2);
-thirdElement(value3);
-fourthElement(value4);
 
 // 6. Try playing around with the arguments that you pass into each function that you call in the event listener callbacks below.  Experiment to get a better idea of how function parameters/arguments work.
 
